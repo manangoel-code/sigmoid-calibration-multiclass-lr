@@ -1,0 +1,219 @@
+{
+  "breast_cancer": {
+    "rows": 569,
+    "features": 30,
+    "feature_names": [
+      "mean radius",
+      "mean texture",
+      "mean perimeter",
+      "mean area",
+      "mean smoothness",
+      "mean compactness",
+      "mean concavity",
+      "mean concave points",
+      "mean symmetry",
+      "mean fractal dimension",
+      "radius error",
+      "texture error",
+      "perimeter error",
+      "area error",
+      "smoothness error",
+      "compactness error",
+      "concavity error",
+      "concave points error",
+      "symmetry error",
+      "fractal dimension error",
+      "worst radius",
+      "worst texture",
+      "worst perimeter",
+      "worst area",
+      "worst smoothness",
+      "worst compactness",
+      "worst concavity",
+      "worst concave points",
+      "worst symmetry",
+      "worst fractal dimension"
+    ],
+    "class_labels": [
+      0,
+      1
+    ],
+    "target_names": [
+      "malignant",
+      "benign"
+    ],
+    "class_counts": {
+      "0": 212,
+      "1": 357
+    },
+    "sha256": "cfa5f355a286f2be32163acd70a6a2e0e6172964d3619e83337aca6b49663614"
+  },
+  "digits": {
+    "rows": 1797,
+    "features": 64,
+    "feature_names": [
+      "pixel_0_0",
+      "pixel_0_1",
+      "pixel_0_2",
+      "pixel_0_3",
+      "pixel_0_4",
+      "pixel_0_5",
+      "pixel_0_6",
+      "pixel_0_7",
+      "pixel_1_0",
+      "pixel_1_1",
+      "pixel_1_2",
+      "pixel_1_3",
+      "pixel_1_4",
+      "pixel_1_5",
+      "pixel_1_6",
+      "pixel_1_7",
+      "pixel_2_0",
+      "pixel_2_1",
+      "pixel_2_2",
+      "pixel_2_3",
+      "pixel_2_4",
+      "pixel_2_5",
+      "pixel_2_6",
+      "pixel_2_7",
+      "pixel_3_0",
+      "pixel_3_1",
+      "pixel_3_2",
+      "pixel_3_3",
+      "pixel_3_4",
+      "pixel_3_5",
+      "pixel_3_6",
+      "pixel_3_7",
+      "pixel_4_0",
+      "pixel_4_1",
+      "pixel_4_2",
+      "pixel_4_3",
+      "pixel_4_4",
+      "pixel_4_5",
+      "pixel_4_6",
+      "pixel_4_7",
+      "pixel_5_0",
+      "pixel_5_1",
+      "pixel_5_2",
+      "pixel_5_3",
+      "pixel_5_4",
+      "pixel_5_5",
+      "pixel_5_6",
+      "pixel_5_7",
+      "pixel_6_0",
+      "pixel_6_1",
+      "pixel_6_2",
+      "pixel_6_3",
+      "pixel_6_4",
+      "pixel_6_5",
+      "pixel_6_6",
+      "pixel_6_7",
+      "pixel_7_0",
+      "pixel_7_1",
+      "pixel_7_2",
+      "pixel_7_3",
+      "pixel_7_4",
+      "pixel_7_5",
+      "pixel_7_6",
+      "pixel_7_7"
+    ],
+    "class_labels": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "target_names": [
+      "0",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "class_counts": {
+      "0": 178,
+      "1": 182,
+      "2": 177,
+      "3": 183,
+      "4": 181,
+      "5": 182,
+      "6": 181,
+      "7": 179,
+      "8": 174,
+      "9": 180
+    },
+    "sha256": "6a8119a13356feb09579860e69ae785d49d11fbeeaccfdbc8415e3293146cdd4"
+  },
+  "iris": {
+    "rows": 150,
+    "features": 4,
+    "feature_names": [
+      "sepal length (cm)",
+      "sepal width (cm)",
+      "petal length (cm)",
+      "petal width (cm)"
+    ],
+    "class_labels": [
+      0,
+      1,
+      2
+    ],
+    "target_names": [
+      "setosa",
+      "versicolor",
+      "virginica"
+    ],
+    "class_counts": {
+      "0": 50,
+      "1": 50,
+      "2": 50
+    },
+    "sha256": "c4fc1a64e2d0f12d5becef71e2dc179ac331d83d80dec84a9b1d29724a4dc395"
+  },
+  "wine": {
+    "rows": 178,
+    "features": 13,
+    "feature_names": [
+      "alcohol",
+      "malic_acid",
+      "ash",
+      "alcalinity_of_ash",
+      "magnesium",
+      "total_phenols",
+      "flavanoids",
+      "nonflavanoid_phenols",
+      "proanthocyanins",
+      "color_intensity",
+      "hue",
+      "od280/od315_of_diluted_wines",
+      "proline"
+    ],
+    "class_labels": [
+      0,
+      1,
+      2
+    ],
+    "target_names": [
+      "class_0",
+      "class_1",
+      "class_2"
+    ],
+    "class_counts": {
+      "0": 59,
+      "1": 71,
+      "2": 48
+    },
+    "sha256": "003c7fd8a2a5a659ecca9a0325c5014cb6923309a4b7b46cc98e6b87184f1315"
+  }
+}

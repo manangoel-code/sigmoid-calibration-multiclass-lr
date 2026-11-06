@@ -1,0 +1,11 @@
+{
+  "benchmark_rows": 120,
+  "followup_rows": 960,
+  "paired_change_rows": 720,
+  "split_records": 60,
+  "probability_records": 960,
+  "seed_zero_bins_verified": 67,
+  "numeric_table_checks": 1391,
+  "mismatches": [],
+  "maximum_saved_metric_recalculation_difference": 1.1102230246251565e-16
+}
