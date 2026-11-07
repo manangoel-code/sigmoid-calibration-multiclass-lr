@@ -4,7 +4,6 @@ title: "When Sigmoid Calibration Worsens Multiclass Logistic Regression: Effects
 authors:
   - family-names: Goel
     given-names: Manan
-date-released: 2026-10-15
 type: software
 keywords:
   - probability calibration

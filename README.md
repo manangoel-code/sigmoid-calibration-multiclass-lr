@@ -3,7 +3,7 @@
 Code, data snapshots and full results for the paper
 
 > **When Sigmoid Calibration Worsens Multiclass Logistic Regression: Effects of Calibration Set Size and Score Representation**
-> Manan Goel, 2026. [Read the paper (PDF)](paper/When_Sigmoid_Calibration_Worsens_Multiclass_Logistic_Regression.pdf)
+> Manan Goel. [Read the paper (PDF)](paper/When_Sigmoid_Calibration_Worsens_Multiclass_Logistic_Regression.pdf)
 
 Sigmoid (Platt) calibration is meant to improve predicted probabilities. For multinomial logistic regression it
 made them worse in these experiments. A preliminary benchmark on breast cancer and digits, with logistic
