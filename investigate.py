@@ -41,7 +41,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 OUTPUT_FOLDER = Path(__file__).resolve().parent
-CRLF = '\r\n'  # committed outputs use CRLF; fixing it keeps reruns byte-identical on every OS
+CRLF = '\r\n'  # committed outputs use CRLF; writing it explicitly avoids OS-dependent line endings
 
 DATASETS = [('Digits', load_digits), ('Iris', load_iris), ('Wine', load_wine)]
 SEEDS = range(100, 120)

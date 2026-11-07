@@ -28,7 +28,7 @@ from sklearn.pipeline import make_pipeline
 from sklearn.preprocessing import StandardScaler
 
 OUTPUT_FOLDER = Path(__file__).resolve().parent
-CRLF = '\r\n'  # committed outputs use CRLF; fixing it keeps reruns byte-identical on every OS
+CRLF = '\r\n'  # committed outputs use CRLF; writing it explicitly avoids OS-dependent line endings
 DATASETS = [('Breast cancer', load_breast_cancer), ('Digits', load_digits)]
 NUMBER_OF_SEEDS = 10
 NUMBER_OF_BINS = 10
